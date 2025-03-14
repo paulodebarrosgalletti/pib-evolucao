@@ -1,0 +1,165 @@
+.container-do-chart-pib {
+  max-width: 1000px; 
+  margin: auto;
+  padding: 25px;
+  background: var(--bg-color);
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-grafico-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+.toggle-container label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.toggle-container input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #0073D9;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-container input[type="checkbox"]:checked {
+  background-color: #0073D9;
+  border-color: #0073D9;
+}
+
+.toggle-container input[type="checkbox"]::before {
+  content: "✔";
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.toggle-container input[type="checkbox"]:checked::before {
+  opacity: 1;
+}
+
+.seletor-anos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+.seletor-anos select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.tooltip-grafico {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .titulo-grafico {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+ 
+  .seletor-anos {
+    font-size: 0.9rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .seletor-anos label {
+    white-space: nowrap;
+    font-size: 1rem;
+    
+  }
+
+  .seletor-anos select {
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo-grafico {
+    font-size: 1.3rem;
+  }
+
+
+  .seletor-anos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .seletor-anos label {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  
+  .seletor-anos div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .seletor-anos select {
+    padding: 5px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    width: auto;
+  }
+}

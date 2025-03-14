@@ -1,0 +1,70 @@
+
+.container-pagina-tabela,
+.container-home {
+  text-align: center;
+  padding: 20px;
+}
+
+.titulo-pagina-tabela,
+.titulo-principal {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.botao-voltar-grafico,
+.botao-ver-tabela {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.botao-voltar-grafico:hover {
+  background-color: #002776;
+}
+
+.botao-ver-tabela:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .container-pagina-tabela,
+  .container-home {
+    padding: 15px;
+  }
+
+  .titulo-pagina-tabela,
+  .titulo-principal {
+    font-size: 1.7rem;
+  }
+
+  .botao-voltar-grafico,
+  .botao-ver-tabela {
+  
+    padding: 14px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo-pagina-tabela,
+  .titulo-principal {
+    font-size: 1.4rem;
+  }
+
+  .botao-voltar-grafico,
+  .botao-ver-tabela {
+
+    font-size: 1rem;
+    padding: 16px;
+  }
+}
