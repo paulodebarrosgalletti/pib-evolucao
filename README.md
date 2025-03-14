@@ -17,7 +17,9 @@ Este é o código de uma aplicação para o teste técnico da vaga de Desenvolve
 ### Instalação das Dependências
 
 git clone https://github.com/paulodebarrosgalletti/pib-evolucao
+
 cd pib-evolucao
+
 npm install
 
 
