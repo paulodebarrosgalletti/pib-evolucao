@@ -15,7 +15,7 @@ Este é o código de uma aplicação para o teste técnico da vaga de Desenvolve
 ## Como Rodar o Projeto
 
 ### Instalação das Dependências
-
+```bash
 git clone https://github.com/paulodebarrosgalletti/pib-evolucao
 
 cd pib-evolucao
@@ -23,10 +23,8 @@ cd pib-evolucao
 npm install
 
 
-### Execução do Projeto
-
 npm run dev
-
+```
 A aplicação estará disponível em **http://localhost:5173**.
 
 
