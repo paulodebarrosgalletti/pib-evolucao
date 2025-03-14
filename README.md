@@ -14,21 +14,21 @@ Este é o código de uma aplicação para o teste técnico da vaga de Desenvolve
 
 ## Como Rodar o Projeto
 
-## Instalação das Dependências
+### Instalação das Dependências
 
-git clone repaquihttps://github.com/paulodebarrosgalletti/Entrevista_Con-ctar_PIB
+git clone https://github.com/paulodebarrosgalletti/pib-evolucao
 cd pib-evolucao
 npm install
 
 
-## Execução do Projeto
+### Execução do Projeto
 
 npm run dev
 
 A aplicação estará disponível em **http://localhost:5173**.
 
 
-### Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 /pib-evolucao
@@ -74,4 +74,4 @@ O objetivo desse projeto foi demonstrar minhas habilidades em React.js, integra�
 
 ## Link para o Deploy
 O projeto estará disponível em:
-https://entrevista-con-ctar-pib.vercel.app
+https://pib-evolucao.vercel.app
